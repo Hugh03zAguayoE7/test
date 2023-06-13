@@ -1128,7 +1128,7 @@ var content = `
 <script>
 var url = "https://" + window.location.hostname + window.location.pathname;
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
-pdfjsLib.GlobalWorkerOptions.workerSrc = '//cdn.jsdelivr.net/gh/mozilla/pdf.js@gh-pages/build/pdf.worker.js';
+pdfjsLib.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
 var pdfDoc = null,
   pageNum = 1,
   pageRendering = false,
